@@ -5,6 +5,8 @@ Date: 2023-10-13
 
 #### Review
 
+* Showed how to use [draw.io](https://app.diagrams.net/) to create a Wireframe and design doc
+
 #### Deliverables for next week
 
 * Wireframes
