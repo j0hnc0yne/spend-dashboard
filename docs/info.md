@@ -18,6 +18,9 @@ Date: 2023-10-13
 
 #### Review
 
+* What is an API?
+
+
 #### Deliverables for next week
 
 * Wireframe updates
@@ -32,6 +35,7 @@ Date: 2023-10-13
 #### Review
 
 * Swagger
+  * [What is Swagger?](https://swagger.io/tools/open-source/getting-started/)
   * [OpenAPI docs tutorial](https://www.baeldung.com/spring-rest-openapi-documentation)
 * git
   * [Commit Tutorial](https://www.atlassian.com/git/tutorials/saving-changes/git-commit) - for the Command Line Interface
@@ -43,4 +47,6 @@ Date: 2023-10-13
 
 #### Deliverables for next week
 
-* 
+* Complete API Spec document
+* Add Swagger Annotations for API Spec
+* Open Pull Request
