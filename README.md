@@ -23,4 +23,4 @@ Demo Project for P33 Strong Start
 2. Open Project folder in IDE of Choice
 3. Find the file `SpendDashboardApiApplication.java` -> Right Click -> Run Java / Run Application
 4. You should see logs in the console that application has started up
-5. Load http://localhost:8080/transactions in a browser window
+5. Load http://localhost:8080/swagger-ui/index.html in a browser window
