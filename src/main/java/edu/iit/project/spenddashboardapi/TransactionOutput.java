@@ -1,6 +1,9 @@
 package edu.iit.project.spenddashboardapi;
 
+import io.swagger.v3.oas.annotations.media.Schema;
+
 public class TransactionOutput {
+    @Schema(name="transactionId", example = "10001", description="Globally Unique Identifier of the Transaction")
     private String transactionId;
     private String transactionDate;
     private String transactionDescription;

@@ -2,6 +2,8 @@ plugins {
 	id 'java'
 	id 'org.springframework.boot' version '3.1.4'
 	id 'io.spring.dependency-management' version '1.1.3'
+	id 'eclipse'
+	id 'idea'
 }
 
 group = 'edu.iit.project'
@@ -17,6 +19,10 @@ repositories {
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+
+	// Add Swagger dependency - https://swagger.io/
+	implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.0.3'
+
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
