@@ -31,6 +31,7 @@ public class SpendDashboardController {
         List<TransactionOutput> transactions = switch(accountId) {
             case "10001" -> trans10001();
             case "10002" -> trans10002();
+            case "10003" -> trans10003();
             default -> { throw new UserNotFoundException(); }
         };
         
