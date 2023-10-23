@@ -8,6 +8,7 @@ public class TransactionOutput {
     private String transactionDate;
     private String transactionDescription;
     private String transactionAmount;
+    private String transactionPlace;
     
     public String getTransactionId() {
         return transactionId;
@@ -32,6 +33,12 @@ public class TransactionOutput {
     }
     public void setTransactionAmount(String transactionAmount) {
         this.transactionAmount = transactionAmount;
+    }
+    public String getTransactionPlace() {
+        return transactionPlace;
+    }
+    public void setTransactionPlace(String transactionPlace) {
+        this.transactionPlace = transactionPlace;
     }
 
     

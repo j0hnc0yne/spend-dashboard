@@ -45,6 +45,7 @@ public class SpendDashboardController {
         transaction1.setTransactionDate("2023-02-01");
         transaction1.setTransactionDescription("Transaction 1");
         transaction1.setTransactionAmount("100.00");
+        transaction1.setTransactionPlace("Discover");
         transactions.add(transaction1);
         
         TransactionOutput transaction2 = new TransactionOutput();
@@ -52,6 +53,7 @@ public class SpendDashboardController {
         transaction2.setTransactionDate("2023-01-02");
         transaction2.setTransactionDescription("Transaction 2");
         transaction2.setTransactionAmount("200.00");
+        transaction2.setTransactionPlace("Nestle");
          transactions.add(transaction2);
         
         TransactionOutput transaction3 = new TransactionOutput();
@@ -59,6 +61,7 @@ public class SpendDashboardController {
         transaction3.setTransactionDate("2023-01-03");
         transaction3.setTransactionDescription("Transaction 3");
         transaction3.setTransactionAmount("300.00");
+        transaction3.setTransactionPlace("Nike");
         transactions.add(transaction3);
         return transactions;
     }
@@ -70,6 +73,7 @@ public class SpendDashboardController {
         transaction1.setTransactionDate("2023-04-04");
         transaction1.setTransactionDescription("Some Transaction");
         transaction1.setTransactionAmount("5.00");
+        transaction1.setTransactionPlace("Bookstore");
         transactions.add(transaction1);
         
         TransactionOutput transaction2 = new TransactionOutput();
@@ -77,6 +81,7 @@ public class SpendDashboardController {
         transaction2.setTransactionDate("2023-05-06");
         transaction2.setTransactionDescription("Another Transaction");
         transaction2.setTransactionAmount("1000.00");
+        transaction2.setTransactionPlace("Home depot");
         transactions.add(transaction2);
         return transactions;
     }
@@ -89,6 +94,7 @@ public class SpendDashboardController {
         transaction1.setTransactionDate("2023-11-04");
         transaction1.setTransactionDescription("one more transaction");
         transaction1.setTransactionAmount("5.00");
+        transaction1.setTransactionPlace("McDonald's");
         transactions.add(transaction1);
         
         TransactionOutput transaction2 = new TransactionOutput();
@@ -96,6 +102,7 @@ public class SpendDashboardController {
         transaction2.setTransactionDate("2023-01-08");
         transaction2.setTransactionDescription("Transaction once more");
         transaction2.setTransactionAmount("9000.00");
+        transaction2.setTransactionPlace("Subway");
         transactions.add(transaction2);
         return transactions;
     }
