@@ -85,16 +85,16 @@ public class SpendDashboardController {
         List<TransactionOutput> transactions = new ArrayList<>();
         TransactionOutput transaction1 = new TransactionOutput();
         transaction1.setTransactionId("1");
-        transaction1.setTransactionDate("2023-04-04");
-        transaction1.setTransactionDescription("Some Transaction");
+        transaction1.setTransactionDate("2023-11-04");
+        transaction1.setTransactionDescription("one more transaction");
         transaction1.setTransactionAmount("5.00");
         transactions.add(transaction1);
         
         TransactionOutput transaction2 = new TransactionOutput();
         transaction2.setTransactionId("2");
-        transaction2.setTransactionDate("2023-05-06");
-        transaction2.setTransactionDescription("Another Transaction");
-        transaction2.setTransactionAmount("1000.00");
+        transaction2.setTransactionDate("2023-01-08");
+        transaction2.setTransactionDescription("Transaction once more");
+        transaction2.setTransactionAmount("9000.00");
         transactions.add(transaction2);
         return transactions;
     }
