@@ -32,6 +32,7 @@ public class SpendDashboardController {
             case "10001" -> trans10001();
             case "10002" -> trans10002();
             case "10003" -> trans10003();
+            case "10004" -> trans10004();
             default -> { throw new UserNotFoundException(); }
         };
         
@@ -103,6 +104,25 @@ public class SpendDashboardController {
         transaction2.setTransactionDescription("Transaction once more");
         transaction2.setTransactionAmount("9000.00");
         transaction2.setTransactionPlace("Subway");
+        transactions.add(transaction2);
+        return transactions;
+    }
+    private List<TransactionOutput> trans10004() {
+        List<TransactionOutput> transactions = new ArrayList<>();
+        TransactionOutput transaction1 = new TransactionOutput();
+        transaction1.setTransactionId("1");
+        transaction1.setTransactionDate("2023-04-04");
+        transaction1.setTransactionDescription("Some Transaction");
+        transaction1.setTransactionAmount("5.00");
+        transaction1.setTransactionPlace("Bookstore");
+        transactions.add(transaction1);
+        
+        TransactionOutput transaction2 = new TransactionOutput();
+        transaction2.setTransactionId("2");
+        transaction2.setTransactionDate("2023-05-06");
+        transaction2.setTransactionDescription("Another Transaction");
+        transaction2.setTransactionAmount("1000.00");
+        transaction2.setTransactionPlace("Home depot");
         transactions.add(transaction2);
         return transactions;
     }
