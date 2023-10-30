@@ -30,7 +30,7 @@ Date: 2023-10-13
 
 ## Week 5
 
-Date: 2023-10-13
+Date: 2023-10-20
 
 #### Review
 
@@ -44,6 +44,21 @@ Date: 2023-10-13
   * [Push commits to remote repo](https://docs.github.com/en/get-started/using-git/pushing-commits-to-a-remote-repository)
   * [Pull Requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
 
+
+#### Deliverables for next week
+
+* Complete API Spec document
+* Add Swagger Annotations for API Spec
+* Open Pull Request
+
+## Week 6
+
+Date: 2023-10-27
+
+#### Review
+
+* [Intro to Agile Development](https://www.youtube.com/watch?v=U9R7mVf15bM) - video of common terms and phrases
+* [What is Agile?](https://www.agilealliance.org/agile101/)
 
 #### Deliverables for next week
 
