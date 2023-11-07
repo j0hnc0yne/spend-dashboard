@@ -65,3 +65,24 @@ Date: 2023-10-27
 * Complete API Spec document
 * Add Swagger Annotations for API Spec
 * Open Pull Request
+
+## Week 7
+
+Date: 2023-11-03
+
+#### Review
+
+* [Test Pyramid Video](https://www.youtube.com/watch?v=1Xbt3n4phFg)
+* [Test Pyramid Article](https://medium.com/contino-engineering/knowthe-testing-pyramid-42a4b3573988)
+* [Test Driven Development Intro](https://www.freecodecamp.org/news/an-introduction-to-test-driven-development-c4de6dce5c/)
+* [GUI Testing](https://www.tutorialspoint.com/gui-testing-tutorial-user-interface-ui-test-cases-with-examples)
+
+#### Deliverables for next week
+
+* Write a Unit Test for `spend-dashboard` + Submit Pull Request
+* Design UI Tests (in English) - example below:
+  ```
+  When I click on a Category in the Pie Chart
+  Then the Graph will update to reflect only that category
+  And the Transaction table will update to only show transactions in the specific category
+  ```
