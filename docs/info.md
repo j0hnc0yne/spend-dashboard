@@ -86,3 +86,17 @@ Date: 2023-11-03
   Then the Graph will update to reflect only that category
   And the Transaction table will update to only show transactions in the specific category
   ```
+
+## Week 8
+
+Date: 2023-11-10
+
+#### Review
+
+* [Site Reliability Engineering](https://sre.google/)
+* [Application Performance Monitoring](https://aws.amazon.com/what-is/application-performance-monitoring/#:~:text=Application%20performance%20monitoring%20(APM)%20is,performance%20of%20business%2Dcritical%20applications.)
+
+
+#### Deliverables for next week
+
+* Finish Presentation
