@@ -93,7 +93,10 @@ Date: 2023-11-10
 
 #### Review
 
-* [Site Reliability Engineering](https://sre.google/)
+* Site Reliability Engineering (SRE)
+    * [SRE 101: Introduction to Site Reliability Engineering](https://medium.com/@megawan/sre-101-introduction-to-site-reliability-engineering-8a134380f812)
+    * [What is SRE?](https://aws.amazon.com/what-is/sre/)
+    * [Google SRE](https://sre.google/)
 * [Application Performance Monitoring](https://aws.amazon.com/what-is/application-performance-monitoring/#:~:text=Application%20performance%20monitoring%20(APM)%20is,performance%20of%20business%2Dcritical%20applications.)
 
 
