@@ -1,6 +1,5 @@
 # spend-dashboard
-Demo Project for P33 Strong Start
-Swagger
+Demo Project for P33 Strong Start with Discover
 
 ## Instructions to Run
 
